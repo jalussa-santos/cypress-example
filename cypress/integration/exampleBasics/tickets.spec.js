@@ -1,4 +1,4 @@
 describe("Tickets",() =>{
     beforeEach(() => cy.visit("https://ticket-box.s3.eu-central-1.amazonaws.com/index.html"));
-    it("has '' headers's heading",() =>{});
+    it("has 'TICKETBOX' headers's heading",() =>{});
 });
