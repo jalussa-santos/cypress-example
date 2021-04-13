@@ -22,9 +22,17 @@ describe("Tickets",() =>{
         cy.get("#vip").check();
     });
 
-    it.only("Selecionar 'social media' checkbox",() =>{
+    it("Selecionar 'social media' checkbox",() =>{
         cy.get("#social-media").check();
     });
+    
+    it.only("Selecionar 'friend' e 'publication, e desmarcar 'friend'",() =>{
+        cy.get("#friend").check();
+        cy.get("#publication").check();
+        cy.get("#friend").uncheck();
+    });
 
+
+    
     it("has 'TICKETBOX' headers's heading",() =>{});
 });
