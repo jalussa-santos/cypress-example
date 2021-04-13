@@ -32,7 +32,21 @@ describe("Tickets",() =>{
         cy.get("#friend").uncheck();
     });
 
-    it.only("has 'TICKETBOX' headers's heading",() =>{
+    it("Contém 'TICKETBOX' no header",() =>{
         cy.get("header h1").should("contain","TICKETBOX")
+    });
+
+    it.only("Existe/Não Existe alerta para e-mail inválido", () => {
+        cy.get("#email")
+        .as("email")
+        .type("teste-gmail.com");
+
+        cy.get("#email.invalid").should("exist");
+        
+        cy.get("@email")
+        .clear()
+        .type("teste@gmail.com");
+
+        cy.get("#email.invalid").should("not.exist");
     });
 });
