@@ -26,13 +26,13 @@ describe("Tickets",() =>{
         cy.get("#social-media").check();
     });
     
-    it.only("Selecionar 'friend' e 'publication, e desmarcar 'friend'",() =>{
+    it("Selecionar 'friend' e 'publication, e desmarcar 'friend'",() =>{
         cy.get("#friend").check();
         cy.get("#publication").check();
         cy.get("#friend").uncheck();
     });
 
-
-    
-    it("has 'TICKETBOX' headers's heading",() =>{});
+    it.only("has 'TICKETBOX' headers's heading",() =>{
+        cy.get("header h1").should("contain","TICKETBOX")
+    });
 });
