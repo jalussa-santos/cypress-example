@@ -45,6 +45,7 @@ npx cypress open
 
 * [Acessar URL](https://github.com/jalussa-santos/cypress-example/issues/3)
 * [Preencher campo de texto](https://github.com/jalussa-santos/cypress-example/issues/4)
+* [Interagir com selectbox](https://github.com/jalussa-santos/cypress-example/issues/5)
 
 ### Time
 
