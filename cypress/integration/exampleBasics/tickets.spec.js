@@ -14,13 +14,25 @@ describe("Tickets",() =>{
         cy.get("#signature").type(`${firstName} ${lastName}`);
     });
 
-    it.only("Selecionar 2 tickets",() => {
+    it("Selecionar 2 tickets",() => {
         cy.get("#ticket-quantity").select("2");
     });
 
-    it.only("Selecionando tipo de ticket 'vip'",() =>{
+    it("Selecionando tipo de ticket 'vip'",() =>{
         cy.get("#vip").check();
     });
 
+    it("Selecionar 'social media' checkbox",() =>{
+        cy.get("#social-media").check();
+    });
+    
+    it.only("Selecionar 'friend' e 'publication, e desmarcar 'friend'",() =>{
+        cy.get("#friend").check();
+        cy.get("#publication").check();
+        cy.get("#friend").uncheck();
+    });
+
+
+    
     it("has 'TICKETBOX' headers's heading",() =>{});
 });
