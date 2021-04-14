@@ -5,7 +5,7 @@
 * [Instalação](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Instalação)
     * [Tecnologias](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Tecnologias)
     * [Clone](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Clone)
-    * [Execução](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Execução)
+    * [Execução na interface](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Execução na interface)
 * [Exemplos](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Exemplos)   
 * [Time](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Time)
 
@@ -29,7 +29,7 @@ Clone este repositório para sua máquina local usando comando abaixo:
 $ git clone https://github.com/jalussa-santos/cypress-example.git
 ```
 
->### Execução
+>### Execução na interface
 
 Acessar a raiz do repositório
 ```
@@ -40,6 +40,27 @@ Execute comando para abrir a UI do cypress
 ```
 npx cypress open
 ```
+
+Na UI do cypress
+```
+- Clicar em </> Tests
+- Clicar em Integration tests
+- Clicar em exampleBasics
+- Clicar em tickets.spec.js
+```
+
+>### Execução modo headless
+
+Acessar a raiz do repositório
+```
+$ cd /{diretorio}/cypress-example
+```
+
+Execute comando 
+```
+npm test
+```
+Este comando irá executar o comando ``` cypress run ``` configurado em scripts do ``` package.json ``` 
 
 ### Exemplos
 
