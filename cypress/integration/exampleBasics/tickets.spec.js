@@ -78,7 +78,7 @@ describe("Tickets",() =>{
         cy.get("@submitButton").should("be.disabled");
     });
 
-    it.only("Preenche campos obrigatórios com comandos customizados", () => {
+    it("Preenche campos obrigatórios com comandos customizados", () => {
         const customer = {
             firstName: "João",
             lastName: "Silva",
