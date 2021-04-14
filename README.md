@@ -6,6 +6,7 @@
     * [Tecnologias](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Tecnologias)
     * [Clone](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Clone)
     * [Execução na interface](https://github.com/jalussa-santos/cypress-example/blob/example-ci/README.md#execu%C3%A7%C3%A3o-na-interface)
+    * [Execução modo headless](https://github.com/jalussa-santos/cypress-example/blob/example-ci/README.md#execu%C3%A7%C3%A3o-modo-headless)
 * [Exemplos](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Exemplos)   
 * [Time](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Time)
 
@@ -60,7 +61,7 @@ Execute comando
 ```
 npm test
 ```
-Este comando irá executar o comando ``` cypress run ``` configurado em scripts do ``` package.json ``` 
+###### Este comando irá executar o comando ``` cypress run ``` configurado em scripts do ``` package.json ``` 
 
 ### Exemplos
 
