@@ -1,3 +1,5 @@
+const { it } = require("mocha");
+
 describe("Tickets",() =>{
     beforeEach(() => cy.visit("https://ticket-box.s3.eu-central-1.amazonaws.com/index.html"));
 
@@ -50,7 +52,7 @@ describe("Tickets",() =>{
         cy.get("#email.invalid").should("not.exist");
     });
 
-    it.only("Preencher e resetar formulário", () => {
+    it("Preencher e resetar formulário", () => {
         const firstName = "Teste";
         const lastName = "Cypress";
         const fullname = `${firstName} ${lastName}`;
@@ -74,6 +76,24 @@ describe("Tickets",() =>{
         .should("not.be.disabled");
 
         cy.get("button[type='reset']").click();
+
+        cy.get("@submitButton").should("be.disabled");
+    });
+
+    it.only("Preenche campos obrigatórios com comandos customizados", () => {
+        const customer = {
+            firstName: "João",
+            lastName: "Silva",
+            email: "joaosilva@example.com"
+        };
+
+        cy.preencheCamposObrigatorios(customer);
+
+        cy.get("button[type='submit']")
+        .as("submitButton")
+        .should("not.be.disabled");
+
+        cy.get("#agree").uncheck();
 
         cy.get("@submitButton").should("be.disabled");
     });
