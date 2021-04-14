@@ -49,6 +49,8 @@ npx cypress open
 * [Interagir com radiobutton](https://github.com/jalussa-santos/cypress-example/issues/6)
 * [Interagir com checkbox](https://github.com/jalussa-santos/cypress-example/issues/7)
 * [Criar assertions](https://github.com/jalussa-santos/cypress-example/issues/8)
+* [Interagir com button](https://github.com/jalussa-santos/cypress-example/issues/9)
+* [Teste end-to-end](https://github.com/jalussa-santos/cypress-example/issues/9)
 
 ### Time
 
