@@ -51,6 +51,7 @@ npx cypress open
 * [Criar assertions](https://github.com/jalussa-santos/cypress-example/issues/8)
 * [Interagir com button](https://github.com/jalussa-santos/cypress-example/issues/9)
 * [Teste end-to-end](https://github.com/jalussa-santos/cypress-example/issues/9)
+* [Criar comandos customizados](https://github.com/jalussa-santos/cypress-example/issues/16)
 
 ### Time
 
