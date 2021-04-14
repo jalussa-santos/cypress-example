@@ -56,7 +56,7 @@ Acessar a raiz do repositório
 ```
 $ cd /{diretorio}/cypress-example
 ```
-
+Abrir o ```git bash```
 Execute comando 
 ```
 npm test
