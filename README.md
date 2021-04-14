@@ -7,7 +7,7 @@
     * [Clone](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Clone)
     * [Execução na interface](https://github.com/jalussa-santos/cypress-example/blob/example-ci/README.md#execu%C3%A7%C3%A3o-na-interface)
     * [Execução modo headless](https://github.com/jalussa-santos/cypress-example/blob/example-ci/README.md#execu%C3%A7%C3%A3o-modo-headless)
-    * [Github Actions]()
+    * [Github Actions](https://github.com/jalussa-santos/cypress-example/tree/doc-github-ci#github-actions)
 * [Exemplos](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Exemplos)   
 * [Time](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Time)
 
