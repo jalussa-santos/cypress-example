@@ -5,7 +5,7 @@
 * [Instalação](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Instalação)
     * [Tecnologias](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Tecnologias)
     * [Clone](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Clone)
-    * [Execução na interface](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Execução na interface)
+    * [Execução na interface](https://github.com/jalussa-santos/cypress-example/blob/example-ci/README.md#execu%C3%A7%C3%A3o-na-interface)
 * [Exemplos](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Exemplos)   
 * [Time](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Time)
 
