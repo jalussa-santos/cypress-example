@@ -61,7 +61,7 @@ Execute comando
 ```
 npm test
 ```
-###### Este comando irá executar o comando ``` cypress run ``` configurado em scripts do ``` package.json ``` 
+###### Este comando irá executar o comando ``` cypress run ``` configurado em scripts do ``` package.json ```. Veja mais em [Linhas de comando](https://docs.cypress.io/guides/guides/command-line#Commands)
 
 ### Exemplos
 
