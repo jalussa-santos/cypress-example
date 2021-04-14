@@ -7,8 +7,8 @@ describe("Tickets",() =>{
         const firstName = "Teste";
         const lastName = "Cypress";
 
-        cy.get('#first-name').type("Teste");
-        cy.get("#last-name").type("cypress");
+        cy.get('#first-name').type(firstName);
+        cy.get("#last-name").type(lastName);
         cy.get("#email").type("testecypress@testes.com.br");
         cy.get("#requests").type("testes123");
         cy.get("#signature").type(`${firstName} ${lastName}`);
@@ -36,7 +36,7 @@ describe("Tickets",() =>{
         cy.get("header h1").should("contain","TICKETBOX")
     });
 
-    it.only("Existe/Não Existe alerta para e-mail inválido", () => {
+    it("Existe/Não Existe alerta para e-mail inválido", () => {
         cy.get("#email")
         .as("email")
         .type("teste-gmail.com");
@@ -48,5 +48,33 @@ describe("Tickets",() =>{
         .type("teste@gmail.com");
 
         cy.get("#email.invalid").should("not.exist");
+    });
+
+    it.only("Preencher e resetar formulário", () => {
+        const firstName = "Teste";
+        const lastName = "Cypress";
+        const fullname = `${firstName} ${lastName}`;
+
+        cy.get('#first-name').type(firstName);
+        cy.get("#last-name").type(lastName);
+        cy.get("#email").type("testecypress@testes.com.br");
+        cy.get("#ticket-quantity").select("2");
+        cy.get("#vip").check();
+        cy.get("#friend").check();
+        cy.get("#requests").type("testes123");
+        
+        cy.get(".agreement p")
+        .should("contain", `I, ${fullname}, wish to buy 2 VIP tickets.`);
+
+        cy.get("#agree").click();
+        cy.get("#signature").type(fullname);
+
+        cy.get("button[type='submit']")
+        .as("submitButton")
+        .should("not.be.disabled");
+
+        cy.get("button[type='reset']").click();
+
+        cy.get("@submitButton").should("be.disabled");
     });
 });
