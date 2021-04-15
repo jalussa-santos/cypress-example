@@ -1,3 +1,5 @@
+![pipeline status](https://github.com/jalussa-santos/cypress-example/actions/workflows/node.js.yml/badge.svg)
+
 # cypress-example
 > Projeto para desenvolver conhecimento na ferramenta cypress
 
@@ -7,7 +9,7 @@
     * [Clone](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Clone)
     * [Execução na interface](https://github.com/jalussa-santos/cypress-example/blob/example-ci/README.md#execu%C3%A7%C3%A3o-na-interface)
     * [Execução modo headless](https://github.com/jalussa-santos/cypress-example/blob/example-ci/README.md#execu%C3%A7%C3%A3o-modo-headless)
-    * [Github Actions](https://github.com/jalussa-santos/cypress-example/tree/doc-github-ci#github-actions)
+    * [Integração contínua](https://github.com/jalussa-santos/cypress-example/tree/doc-github-ci#integra%C3%A7%C3%A3o-cont%C3%ADnua)
 * [Exemplos](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Exemplos)   
 * [Time](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Time)
 
@@ -64,21 +66,12 @@ npm test
 ```
 ###### Este comando irá executar o comando ``` cypress run ``` configurado em scripts do ``` package.json ```. Veja mais em [Linhas de comando](https://docs.cypress.io/guides/guides/command-line#Commands)
 
->### Github Actions
+>### Integração Contínua
 
-* Clicar na opção ```Actions``` do repositório
-* Clicar em ```Set up this workflow``` do **Node.JS**
-* No arquivo, ajustar a versão do node que deseja usar  
-```
-strategy:
-      matrix:
-        node-version: [10.x, 12.x, 14.x, 15.x]
-```
-* No arquivo ajustar os comandos ```run``` para 
-```
-- run: npm install
-- run: npm run test
-```
+
+* [Configuração do yml](https://gitlab.com/jalussa.santos/cypress-example/-/blob/master/.gitlab-ci.yml) para execução do cypress no Gitlab-ci. [Observações](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-b%C3%A1sico#configura%C3%A7%C3%B5es-gitlab-ci)
+
+* [Configuração do yml](https://github.com/jalussa-santos/cypress-example/blob/main/.github/workflows/node.js.yml) para execução do cypress no Github Actions. [Observações](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-b%C3%A1sico#configura%C3%A7%C3%B5es-github-actions)
 
 ###### Veja mais em [Cypress - Continuous Integration com Github Actions](https://docs.cypress.io/guides/continuous-integration/github-actions#Basic-Setup) e [cypress-io/github-action](https://github.com/marketplace/actions/cypress-io)
 
@@ -97,4 +90,4 @@ strategy:
 
 ### Time
 
-> Jalussa dos Santos | [Linkedin](https://www.linkedin.com/in/jalussa/) | [Github](https://github.com/jalussa-santos)
+> Jalussa dos Santos | [Linkedin](https://www.linkedin.com/in/jalussa/) | [Github](https://github.com/jalussa-santos) | [Gitlab](https://gitlab.com/jalussa.santos)
