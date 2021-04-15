@@ -1,4 +1,4 @@
-![pipeline status](https://github.com/jalussa-santos/cypress-example/actions/workflows/node.js.yml/badge.svg)
+[![pipeline status](https://github.com/jalussa-santos/cypress-example/actions/workflows/node.js.yml/badge.svg)](https://github.com/jalussa-santos/cypress-example/actions)
 
 # cypress-example
 > Projeto para desenvolver conhecimento na ferramenta cypress
