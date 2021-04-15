@@ -1,4 +1,4 @@
-[![pipeline status](https://github.com/jalussa-santos/cypress-example/actions/workflows/github-actions.yml/badge.svg)](https://github.com/jalussa-santos/cypress-example/actions)
+[![pipeline status](https://github.com/jalussa-santos/cypress-example/actions/workflows/node.js.yml/badge.svg)](https://github.com/jalussa-santos/cypress-example/actions)
 
 # cypress-example
 > Projeto para desenvolver conhecimento na ferramenta cypress
@@ -7,9 +7,9 @@
 * [Instalação](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Instalação)
     * [Tecnologias](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Tecnologias)
     * [Clone](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Clone)
-    * [Execução na interface](https://github.com/jalussa-santos/cypress-example/blob/example-ci/README.md#execu%C3%A7%C3%A3o-na-interface)
-    * [Execução modo headless](https://github.com/jalussa-santos/cypress-example/blob/example-ci/README.md#execu%C3%A7%C3%A3o-modo-headless)
-    * [Integração contínua](https://github.com/jalussa-santos/cypress-example/tree/doc-github-ci#integra%C3%A7%C3%A3o-cont%C3%ADnua)
+    * [Execução na interface](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#execu%C3%A7%C3%A3o-na-interface)
+    * [Execução modo headless](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#execu%C3%A7%C3%A3o-modo-headless)
+    * [Integração contínua](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#integra%C3%A7%C3%A3o-cont%C3%ADnua)
 * [Exemplos](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Exemplos)   
 * [Time](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Time)
 
