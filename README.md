@@ -69,11 +69,12 @@ npm test
 >### Integração Contínua
 
 
-* [Configuração do yml](https://gitlab.com/jalussa.santos/cypress-example/-/blob/master/.gitlab-ci.yml) para execução do cypress no Gitlab-ci. [Observações](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-b%C3%A1sico#configura%C3%A7%C3%B5es-gitlab-ci)
+* [Configuração do yml](https://gitlab.com/jalussa.santos/cypress-example/-/blob/master/.gitlab-ci.yml) para execução do cypress no Gitlab-ci. 
+###### Veja mais na Wiki [Configurações Gitlab-CI](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-b%C3%A1sico#configura%C3%A7%C3%B5es-gitlab-ci)
 
-* [Configuração do yml](https://github.com/jalussa-santos/cypress-example/blob/main/.github/workflows/node.js.yml) para execução do cypress no Github Actions. [Observações](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-b%C3%A1sico#configura%C3%A7%C3%B5es-github-actions)
+* [Configuração do yml](https://github.com/jalussa-santos/cypress-example/blob/main/.github/workflows/node.js.yml) para execução do cypress no Github Actions. 
 
-###### Veja mais em [Cypress - Continuous Integration com Github Actions](https://docs.cypress.io/guides/continuous-integration/github-actions#Basic-Setup) e [cypress-io/github-action](https://github.com/marketplace/actions/cypress-io)
+###### Veja mais na Wiki [Configurações Github Actions](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-b%C3%A1sico#configura%C3%A7%C3%B5es-github-actions)
 
 
 ### Exemplos
