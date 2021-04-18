@@ -16,13 +16,20 @@
 ### Instalação
 
 >### Tecnologias
-* NodeJS
-* NPM
-* JavaScript
-* Cypress
-* Mocha
 
+* Nível básico
+    * NodeJS
+    * NPM
+    * JavaScript
+    * Cypress
+    * Mocha
+    
 ###### Não possui nenhuma ferramenta na máquina? [Clique aqui](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-b%C3%A1sico#tecnologias-para-execu%C3%A7%C3%A3o-do-cypress)
+
+* Nível Intermediário
+    * Docker
+
+###### Não possui nenhuma ferramenta na máquina? [Clique aqui](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-intermedi%C3%A1rio#tecnologias-para-execu%C3%A7%C3%A3o)
 
 >### Clone
 
