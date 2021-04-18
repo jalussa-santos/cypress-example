@@ -22,14 +22,12 @@
     * NPM
     * JavaScript
     * Cypress
-    * Mocha
-    
-###### Não possui nenhuma ferramenta na máquina? [Clique aqui](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-b%C3%A1sico#tecnologias-para-execu%C3%A7%C3%A3o-do-cypress)
+    * Mocha  
 
 * **Nível Intermediário**
     * Docker
 
-###### Não possui nenhuma ferramenta na máquina? [Clique aqui](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-intermedi%C3%A1rio#tecnologias-para-execu%C3%A7%C3%A3o)
+###### Não possui nenhuma ferramenta na máquina? Veja mais informações em [Tecnologias para execução do nível básico](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-b%C3%A1sico#tecnologias-para-execu%C3%A7%C3%A3o-do-cypress) e [Tecnologias para execução do nível intermediário](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-intermedi%C3%A1rio#tecnologias-para-execu%C3%A7%C3%A3o)
 
 >### Clone
 
