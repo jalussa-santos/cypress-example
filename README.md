@@ -1,7 +1,7 @@
 [![pipeline status](https://github.com/jalussa-santos/cypress-example/actions/workflows/node.js.yml/badge.svg)](https://github.com/jalussa-santos/cypress-example/actions)
 
 # cypress-example
-> Projeto para desenvolver habilidades na ferramenta cypress. Veja mais informações do aprendizado na [Wiki](https://github.com/jalussa-santos/cypress-example/wiki)
+> Projeto para desenvolver habilidades na ferramenta cypress. Veja mais informações das lições aprendidas na [Wiki](https://github.com/jalussa-santos/cypress-example/wiki)
 
 ## Como usar
 * [Instalação](https://github.com/jalussa-santos/cypress-example/blob/main/README.md#Instalação)
