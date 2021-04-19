@@ -26,8 +26,4 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
-    # - run: npm run test
-    - name: 'Cypress run'
-      uses: cypress-io/github-action@v2
-      with:
-        spec: cypress/integration/exemploBasico/tickets.spec.js
+    - run: cypress run --env baseUrl=https://ticket-box.s3.eu-central-1.amazonaws.com/index.html
