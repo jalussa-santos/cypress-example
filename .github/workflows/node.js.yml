@@ -30,4 +30,4 @@ jobs:
     - name: 'Cypress run'
       uses: cypress-io/github-action@v2
       with:
-        spec: cypress/integration/exemploBasico/*
+        spec: cypress/integration/exemploBasico/tickets.spec.js
