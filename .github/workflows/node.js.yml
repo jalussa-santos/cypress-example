@@ -26,4 +26,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
-    - run: npm run test
+    # - run: npm run test
+    - name: 'Cypress run'
+      uses: cypress-io/github-action@v2
+      with:
+        spec: cypress/integration/exemploBasico/*
