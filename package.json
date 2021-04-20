@@ -4,7 +4,8 @@
   "description": "cypress example",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "test:exemploBasico": "cypress run --config baseUrl=https://ticket-box.s3.eu-central-1.amazonaws.com/index.html"
   },
   "keywords": [
     "cypress",
