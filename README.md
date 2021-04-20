@@ -81,6 +81,7 @@ npm test
 
 ###### Veja mais na Wiki [Configurações Github Actions](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-b%C3%A1sico#configura%C3%A7%C3%B5es-github-actions)
 
+###### Veja mais na Wiki [Integração contínua - Nível intermediário](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-intermedi%C3%A1rio#integra%C3%A7%C3%A3o-cont%C3%ADnua)
 
 ### Exemplos
 
