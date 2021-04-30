@@ -7,7 +7,7 @@ describe('Criar Projeto', () => {
 
    it('sucesso', ()=>{
     const project = {
-        name: `project=${faker.random.uuid}`,
+        name: `project-${faker.random.uuid()}`,
         description: faker.random.words(5)
     }
 
