@@ -100,7 +100,7 @@ npm test
 
 * **Nível Intermediário**
 
-    * [Usando faker](https://github.com/jalussa-santos/cypress-example/issues/3)
+    * [Usando faker](https://github.com/jalussa-santos/cypress-example/issues/31)
 
 ### Time
 
