@@ -102,6 +102,8 @@ npm test
 
     * [Usando faker](https://github.com/jalussa-santos/cypress-example/issues/31)
     * [Usando autocomplete](https://github.com/jalussa-santos/cypress-example/issues/31)
+    * [Interagindo com a URL](https://github.com/jalussa-santos/cypress-example/issues/31)
+    * [Indentificando elemento com contains](https://github.com/jalussa-santos/cypress-example/issues/31)
 
 ### Time
 
