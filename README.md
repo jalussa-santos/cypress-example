@@ -26,8 +26,9 @@
 
 * **Nível Intermediário**
     * Docker
+    * Faker
 
-###### Não possui nenhuma ferramenta na máquina? Veja mais informações em [Tecnologias para execução do nível básico](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-b%C3%A1sico#tecnologias-para-execu%C3%A7%C3%A3o-do-cypress) e [Tecnologias para execução do nível intermediário](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-intermedi%C3%A1rio#tecnologias-para-execu%C3%A7%C3%A3o)
+###### Não possui nenhuma ferramenta na máquina? Ou quer saber mais sobre as ferramentas, veja mais informações em [Tecnologias para execução do nível básico](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-b%C3%A1sico#tecnologias-para-execu%C3%A7%C3%A3o-do-cypress) e [Tecnologias para execução do nível intermediário](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-intermedi%C3%A1rio#tecnologias-para-execu%C3%A7%C3%A3o)
 
 >### Clone
 
@@ -85,15 +86,24 @@ npm test
 
 ### Exemplos
 
-* [Acessar URL](https://github.com/jalussa-santos/cypress-example/issues/3)
-* [Preencher campo de texto](https://github.com/jalussa-santos/cypress-example/issues/4)
-* [Interagir com selectbox](https://github.com/jalussa-santos/cypress-example/issues/5)
-* [Interagir com radiobutton](https://github.com/jalussa-santos/cypress-example/issues/6)
-* [Interagir com checkbox](https://github.com/jalussa-santos/cypress-example/issues/7)
-* [Criar assertions](https://github.com/jalussa-santos/cypress-example/issues/8)
-* [Interagir com button](https://github.com/jalussa-santos/cypress-example/issues/9)
-* [Teste end-to-end](https://github.com/jalussa-santos/cypress-example/issues/9)
-* [Criar comandos customizados](https://github.com/jalussa-santos/cypress-example/issues/16)
+* **Nível básico**
+
+    * [Acessar URL](https://github.com/jalussa-santos/cypress-example/issues/3)
+    * [Preencher campo de texto](https://github.com/jalussa-santos/cypress-example/issues/4)
+    * [Interagir com selectbox](https://github.com/jalussa-santos/cypress-example/issues/5)
+    * [Interagir com radiobutton](https://github.com/jalussa-santos/cypress-example/issues/6)
+    * [Interagir com checkbox](https://github.com/jalussa-santos/cypress-example/issues/7)
+    * [Criar assertions](https://github.com/jalussa-santos/cypress-example/issues/8)
+    * [Interagir com button](https://github.com/jalussa-santos/cypress-example/issues/9)
+    * [Teste end-to-end](https://github.com/jalussa-santos/cypress-example/issues/9)
+    * [Criar comandos customizados](https://github.com/jalussa-santos/cypress-example/issues/16)
+
+* **Nível Intermediário**
+
+    * [Usando faker](https://github.com/jalussa-santos/cypress-example/issues/31)
+    * [Usando autocomplete](https://github.com/jalussa-santos/cypress-example/issues/31)
+    * [Interagindo com a URL](https://github.com/jalussa-santos/cypress-example/issues/31)
+    * [Indentificando elemento com contains](https://github.com/jalussa-santos/cypress-example/issues/31)
 
 ### Time
 
