@@ -20,3 +20,12 @@ Cypress.Commands.add('gui_createProject',project => {
     cy.get('.qa-initialize-with-readme-checkbox').check();
     cy.contains('Create project').click();
 });
+
+Cypress.Commands.add('gui_creatIsuue',isssue => {
+    cy.visit(`${Cypress.env('user_name')}/issues/new`);
+
+    cy.get('#project_name').type(project.name);
+    cy.get('#project_description').type(project.description);
+    cy.get('.qa-initialize-with-readme-checkbox').check();
+    cy.contains('Create project').click();
+});
