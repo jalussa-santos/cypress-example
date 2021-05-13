@@ -15,7 +15,7 @@ describe('Criar Issue', () => {
 
     before(() => {
         cy.login()
-        cy.createProject(issue.project)
+        cy.gui_createProject(issue.project)
      });
 
    it('sucesso', ()=>{

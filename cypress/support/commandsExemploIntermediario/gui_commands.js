@@ -21,11 +21,10 @@ Cypress.Commands.add('gui_createProject',project => {
     cy.contains('Create project').click();
 });
 
-Cypress.Commands.add('gui_creatIsuue',isssue => {
-    cy.visit(`${Cypress.env('user_name')}/issues/new`);
-
-    cy.get('#project_name').type(project.name);
-    cy.get('#project_description').type(project.description);
-    cy.get('.qa-initialize-with-readme-checkbox').check();
-    cy.contains('Create project').click();
-});
+Cypress.Commands.add('gui_createIssue', issue => {
+    cy.visit(`${Cypress.env('user_name')}/${issue.project.name}/issues/new`)
+  
+    cy.get('.qa-issuable-form-title').type(issue.title)
+    cy.get('.qa-issuable-form-description').type(issue.description)
+    cy.contains('Submit issue').click()
+  });
