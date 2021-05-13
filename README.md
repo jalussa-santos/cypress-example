@@ -104,6 +104,7 @@ npm test
     * [Usando autocomplete](https://github.com/jalussa-santos/cypress-example/issues/31)
     * [Interagindo com a URL](https://github.com/jalussa-santos/cypress-example/issues/31)
     * [Indentificando elemento com contains](https://github.com/jalussa-santos/cypress-example/issues/31)
+    * [Utilizando request do cypress para teste de api](https://github.com/jalussa-santos/cypress-example/issues/33)
 
 ### Time
 
