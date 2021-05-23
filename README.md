@@ -106,6 +106,7 @@ npm test
     * [Indentificando elemento com contains](https://github.com/jalussa-santos/cypress-example/issues/31)
     * [Utilizando request do cypress para teste de api](https://github.com/jalussa-santos/cypress-example/issues/33)
     * [Otimizando teste de GUI com chamada a api nas pré-condições](https://github.com/jalussa-santos/cypress-example/issues/34)
+    * [Teste de GUI com muitas pré-condições](https://github.com/jalussa-santos/cypress-example/issues/35)
 
 ### Time
 
