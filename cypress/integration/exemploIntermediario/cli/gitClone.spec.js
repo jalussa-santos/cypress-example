@@ -11,7 +11,7 @@ describe('Clonar repositório git', () => {
   beforeEach(() => cy.api_createProject(project))
 
   it('Com sucesso', () => {
-    cy.cloneViaSSH(project)
+    cy.cloneViaHttp(project)
 
     cy.readFile(`temp/${project.name}/README.md`)
       .should('contain', `# ${project.name}`)
