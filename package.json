@@ -16,7 +16,7 @@
   "author": "Jalussa dos Santos",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^7.3.0",
+    "cypress": "^7.4.0",
     "faker": "^5.5.3"
   }
 }
