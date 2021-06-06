@@ -113,6 +113,10 @@ npm test
     * [Interagindo com execução a nível de sistema](https://github.com/jalussa-santos/cypress-example/issues/36)
     * [Realizando leitura de arquivo](https://github.com/jalussa-santos/cypress-example/issues/36)
 
+* **Teste de regressão visual**
+
+    * [Criando snapshot](https://github.com/jalussa-santos/cypress-example/issues/49)
+
 ### Time
 
 > Jalussa dos Santos | [Linkedin](https://www.linkedin.com/in/jalussa/) | [Github](https://github.com/jalussa-santos) | [Gitlab](https://gitlab.com/jalussa.santos)
