@@ -28,7 +28,10 @@
     * Docker
     * Faker
 
-###### Não possui nenhuma ferramenta na máquina? Ou quer saber mais sobre as ferramentas, veja mais informações em [Tecnologias para execução do nível básico](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-b%C3%A1sico#tecnologias-para-execu%C3%A7%C3%A3o-do-cypress) e [Tecnologias para execução do nível intermediário](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-intermedi%C3%A1rio#tecnologias-para-execu%C3%A7%C3%A3o)
+* **Teste de regressão visual**
+    * Percy
+
+###### Não possui nenhuma ferramenta na máquina? Ou quer saber mais sobre as ferramentas, veja mais informações em  [Tecnologias para execução do nível básico](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-b%C3%A1sico#tecnologias-para-execu%C3%A7%C3%A3o-do-cypress), [Tecnologias para execução do nível intermediário](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-do-n%C3%ADvel-intermedi%C3%A1rio#tecnologias-para-execu%C3%A7%C3%A3o) e [Tecnologias para execução de teste de regressão visual](https://github.com/jalussa-santos/cypress-example/wiki/Aprendizados-de-testes-de-regress%C3%A3o-visual#tecnologias-para-execu%C3%A7%C3%A3o)
 
 >### Clone
 
