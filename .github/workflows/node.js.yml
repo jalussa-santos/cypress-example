@@ -5,8 +5,6 @@ name: Cypress Example CI
 
 on:
   push
-  pull_request:
-    branches: [ main ]
 
 jobs:
   build:
