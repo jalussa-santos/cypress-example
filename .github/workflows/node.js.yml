@@ -25,3 +25,5 @@ jobs:
     - run: npm install
     - run: npm run test:exemploBasico
     - run: npm run test:exemploTesteRegressaoVisual
+      env:
+            PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
