@@ -32,4 +32,18 @@ describe('Ticketbox', () => {
         cy.get("#vip").check();
         cy.percySnapshot();      
      });
+
+     const sucessoEnvioFormulario = 'Checar mensagem de sucesso ao enviar formulário'
+     it(sucessoEnvioFormulario, () => {
+      const customer = {
+         firstName: "João",
+         lastName: "Silva",
+         email: "joaosilva@example.com"
+     };
+
+     cy.preencheCamposObrigatorios(customer);
+     cy.percySnapshot(sucessoEnvioFormulario, {
+      percyCSS: `.success span { display: none; }`
+   })
+   });
 });
