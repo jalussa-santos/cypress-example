@@ -5,7 +5,7 @@ describe('Ticketbox', () => {
     });
 
     it('Checar estado com e-mail inválido', () => {
-        cy.get('#email').type('yy@teste.com');
+        cy.get('#email').type('teste.com');
         cy.percySnapshot();      
      });
 
