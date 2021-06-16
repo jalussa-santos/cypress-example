@@ -6,7 +6,7 @@
   "scripts": {
     "test": "cypress run",
     "test:exemploBasico": "cypress run --config baseUrl=https://ticket-box.s3.eu-central-1.amazonaws.com/index.html --spec cypress/integration/exemploBasico/tickets.spec.js",
-    "test:exemploTesteRegressaoVisual": " percy exec -- cypress run --config baseUrl=https://ticket-box.s3.eu-central-1.amazonaws.com/index.html --spec cypress/integration/exemploTesteRegressaoVisualPercy/ticketBox.spec.js"
+    "test:exemploTesteRegressaoVisualPercy": " percy exec -- cypress run --config baseUrl=https://ticket-box.s3.eu-central-1.amazonaws.com/index.html --spec cypress/integration/exemploTesteRegressaoVisualPercy/ticketBox.spec.js"
   },
   "keywords": [
     "cypress",
