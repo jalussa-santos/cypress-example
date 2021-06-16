@@ -6,6 +6,7 @@ name: Cypress Example CI
 on:
   push:
     branches: [ main ]
+    branches: [ integracaoContinua ]
   pull_request:
     branches: [ main ]
 
