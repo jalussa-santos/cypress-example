@@ -29,6 +29,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install
     - run: npm run test:exemploBasico
-    - run: npm run test:exemploTesteRegressaoVisual
+    - run: npm run test:exemploTesteRegressaoVisualPercy
       env:
             PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
