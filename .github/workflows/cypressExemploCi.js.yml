@@ -5,8 +5,9 @@ name: Cypress Example CI
 
 on:
   push:
-    branches: [ main ]
-    branches: [ integracaoContinua ]
+    branches:
+      - main
+      - integracaoContinua
   pull_request:
     branches: [ main ]
 
