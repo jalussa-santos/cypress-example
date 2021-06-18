@@ -42,7 +42,6 @@ describe('Ticketbox', () => {
      };
 
      cy.preencheCamposObrigatorios(customer);
-     
      cy.percySnapshot(sucessoEnvioFormulario, {
       percyCSS: `.success span { display: none; }`
    })
