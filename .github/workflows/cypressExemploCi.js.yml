@@ -5,7 +5,8 @@ name: Cypress Example CI
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   pull_request:
     branches: [ main ]
 
@@ -17,7 +18,7 @@ jobs:
     strategy:
       matrix:
         node-version: [15.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+        # Veja a programação de lançamento do Node.js compatível em https://nodejs.org/en/about/releases/
 
     steps:
     - uses: actions/checkout@v2
@@ -27,3 +28,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install
     - run: npm run test:exemploBasico
+    - run: npm run test:exemploTesteRegressaoVisualPercy
+      env:
+            PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
