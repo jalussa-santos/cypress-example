@@ -7,7 +7,6 @@ on:
   push:
     branches:
       - main
-      - testeregressaovisual
   pull_request:
     branches: [ main ]
 
@@ -18,7 +17,8 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [15.x]
+        # Veja a programação de lançamento do Node.js compatível em https://nodejs.org/en/about/releases/
 
     steps:
     - uses: actions/checkout@v2
