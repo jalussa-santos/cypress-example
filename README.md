@@ -1,4 +1,4 @@
-[![pipeline status](https://github.com/jalussa-santos/cypress-example/actions/workflows/node.js.yml/badge.svg)](https://github.com/jalussa-santos/cypress-example/actions)     [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/fa97d80b/exemplo-cypress-percy)
+[![pipeline status](https://github.com/jalussa-santos/cypress-example/actions/workflows/cypressExemploCi.js.yml/badge.svg)](https://github.com/jalussa-santos/cypress-example/actions)[![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/fa97d80b/exemplo-cypress-percy)
 
 # cypress-example
 > Projeto para desenvolver habilidades na ferramenta cypress. Veja mais informações das lições aprendidas na [Wiki](https://github.com/jalussa-santos/cypress-example/wiki)
