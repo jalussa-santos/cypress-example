@@ -118,7 +118,8 @@ npm test
     * [Criando snapshot](https://github.com/jalussa-santos/cypress-example/issues/49)
     * [Exemplo de validação de estados da aplicação](https://github.com/jalussa-santos/cypress-example/issues/51)
     * [Controlando a renderização](https://github.com/jalussa-santos/cypress-example/issues/53)
-    * [Execução na pipeline](https://github.com/jalussa-santos/cypress-example/issues/56)
+    * [Execução na pipeline Github](https://github.com/jalussa-santos/cypress-example/issues/56)
+    * [Execução na pipeline Gitlab](https://github.com/jalussa-santos/cypress-example/issues/62)
 
 
 ### Time
