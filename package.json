@@ -6,7 +6,8 @@
   "scripts": {
     "test": "cypress run",
     "test:exemploBasico": "cypress run --config baseUrl=https://ticket-box.s3.eu-central-1.amazonaws.com/index.html --spec cypress/integration/exemploBasico/tickets.spec.js",
-    "test:exemploTesteRegressaoVisualPercy": " percy exec -- cypress run --config baseUrl=https://ticket-box.s3.eu-central-1.amazonaws.com/index.html --spec cypress/integration/exemploTesteRegressaoVisualPercy/ticketBox.spec.js"
+    "test:exemploTesteRegressaoVisualPercy": " percy exec -- cypress run --config baseUrl=https://ticket-box.s3.eu-central-1.amazonaws.com/index.html --spec cypress/integration/exemploTesteRegressaoVisualPercy/ticketBox.spec.js",
+    "test:exemploTesteRegressaoPlugin": " percy exec -- cypress run --config baseUrl=https://ticket-box.s3.eu-central-1.amazonaws.com/index.html --spec cypress/integration/exemploTesteRegressaoVisualPlugin/ticketBox_Plugin.spec.js"
   },
   "keywords": [
     "cypress",
@@ -21,7 +22,8 @@
   "devDependencies": {
     "@percy/cli": "^1.0.0-beta.52",
     "@percy/cypress": "^3.1.0",
-    "cypress": "^7.4.0",
-    "faker": "^5.5.3"
+    "cypress": "^7.5.0",
+    "faker": "^5.5.3",
+    "cypress-plugin-snapshots": "^1.4.4"
   }
 }
