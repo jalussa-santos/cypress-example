@@ -120,6 +120,7 @@ npm test
     * [Controlando a renderização](https://github.com/jalussa-santos/cypress-example/issues/53)
     * [Execução na pipeline Github](https://github.com/jalussa-santos/cypress-example/issues/56)
     * [Execução na pipeline Gitlab](https://github.com/jalussa-santos/cypress-example/issues/62)
+    * [Integração com cypresspluginsnapshots](https://github.com/jalussa-santos/cypress-example/issues/58)
 
 
 ### Time

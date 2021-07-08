@@ -17,7 +17,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [15.x]
+        node-version: [16.x]
         # Veja a programação de lançamento do Node.js compatível em https://nodejs.org/en/about/releases/
 
     steps:
