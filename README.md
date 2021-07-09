@@ -48,6 +48,11 @@ Acessar a raiz do repositório
 ```
 $ cd /{diretorio}/cypress-example
 ```
+Execute comando para instalar as dependências listadas na seção de `devDependencies` do arquivo `package.json`
+
+```
+npm install
+```
 
 Execute comando para abrir a UI do cypress
 ```
@@ -58,7 +63,7 @@ Na UI do cypress
 ```
 - Clicar em </> Tests
 - Clicar em Integration tests
-- Clicar em exampleBasics
+- Clicar em exampleBasico
 - Clicar em tickets.spec.js
 ```
 
