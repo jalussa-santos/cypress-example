@@ -91,7 +91,7 @@ describe('Hacker Stories', () => {
         .clear()
     })
 
-    it.only('digita e pressiona ENTER', () => {
+    it('digita e pressiona ENTER', () => {
       cy.get('#search')
         .type(`${newTerm}{enter}`)
 
@@ -105,13 +105,13 @@ describe('Hacker Stories', () => {
         .should('be.visible')
     })
 
-    it('types and clicks the submit button', () => {
+    it('digita e clica no botão enviar', () => {
       cy.get('#search')
         .type(newTerm)
       cy.contains('Submit')
         .click()
 
-      cy.assertLoadingIsShownAndHidden()
+      cy.wait('@getNewTermStories')
 
       cy.get('.item').should('have.length', 20)
       cy.get('.item')
