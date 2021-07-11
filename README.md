@@ -118,6 +118,10 @@ npm test
     * [Interagindo com execução a nível de sistema](https://github.com/jalussa-santos/cypress-example/issues/36)
     * [Realizando leitura de arquivo](https://github.com/jalussa-santos/cypress-example/issues/36)
 
+* **Nível Avançado**
+    * [Interceptando solicitações e respostas](https://github.com/jalussa-santos/cypress-example/issues/70)
+    * [Repetição de execução da função/teste](https://github.com/jalussa-santos/cypress-example/issues/70)
+
 * **Teste de regressão visual**
 
     * [Criando snapshot](https://github.com/jalussa-santos/cypress-example/issues/49)

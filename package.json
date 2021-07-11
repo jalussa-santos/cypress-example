@@ -4,6 +4,8 @@
   "description": "cypress example",
   "main": "index.js",
   "scripts": {
+    "lint": "npx standard",
+    "lint:fix": "npx standard --fix",
     "test": "cypress run",
     "test:exemploBasico": "cypress run --config baseUrl=https://ticket-box.s3.eu-central-1.amazonaws.com/index.html --spec cypress/integration/exemploBasico/tickets.spec.js",
     "test:exemploAvancado": "cypress run --config baseUrl=https://wlsf82-hacker-stories.web.app --spec cypress/integration/exemploAvancado/hackerStories.spec.js",
