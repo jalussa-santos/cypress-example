@@ -121,18 +121,18 @@ describe('Hacker Stories', () => {
         .should('be.visible')
     })
 
-    context('Last searches', () => {
-      it('searches via the last searched term', () => {
+    context('Últimas buscas', () => {
+      it.only('pesquisas através do último termo pesquisado', () => {
         cy.get('#search')
           .type(`${newTerm}{enter}`)
 
-        cy.assertLoadingIsShownAndHidden()
+        cy.wait('@getNewTermStories')
 
         cy.get(`button:contains(${initialTerm})`)
           .should('be.visible')
           .click()
 
-        cy.assertLoadingIsShownAndHidden()
+        cy.wait('@getStories')
 
         cy.get('.item').should('have.length', 20)
         cy.get('.item')
