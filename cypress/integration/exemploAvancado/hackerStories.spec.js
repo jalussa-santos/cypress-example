@@ -142,7 +142,7 @@ describe('Hacker Stories', () => {
           .should('be.visible')
       })
 
-      it.only('mostra no máximo 5 botões para os últimos termos pesquisados', () => {
+      it('mostra no máximo 5 botões para os últimos termos pesquisados', () => {
         const faker = require('faker')
 
         cy.intercept(
@@ -150,7 +150,7 @@ describe('Hacker Stories', () => {
           '**/search**'
         ).as('getRandomStories')
 
-        Cypress._.times(6, () => {
+        Cypress._.times(7, () => {
           cy.get('#search')
             .clear()
             .type(`${faker.random.word()}{enter}`)
