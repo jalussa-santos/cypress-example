@@ -12,7 +12,7 @@ describe('Hacker Stories', () => {
     cy.wait('@getStories')
   })
 
-  it.only('shows the footer', () => {
+  it('shows the footer', () => {
     cy.get('footer')
       .should('be.visible')
       .and('contain', 'Icons made by Freepik from www.flaticon.com')
@@ -26,12 +26,20 @@ describe('Hacker Stories', () => {
     // TODO: Find a way to test it out.
     it.skip('shows the right data for all rendered stories', () => {})
 
-    it('shows 20 stories, then the next 20 after clicking "More"', () => {
+    it('mostra 20 stories, depois as próximas 20 após clicar em "Mais"', () => {
+      cy.intercept({
+        method: 'GET',
+        pathname: '**/search',
+        query: {
+          query: 'React',
+          page: '1'
+        }
+      }).as('getNextStories')
       cy.get('.item').should('have.length', 20)
 
       cy.contains('More').click()
 
-      cy.assertLoadingIsShownAndHidden()
+      cy.wait('@getNextStories')
 
       cy.get('.item').should('have.length', 40)
     })
