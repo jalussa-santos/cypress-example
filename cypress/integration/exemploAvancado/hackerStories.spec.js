@@ -77,20 +77,25 @@ describe('Hacker Stories', () => {
     })
   })
 
-  context('Search', () => {
+  context('Pesquisa', () => {
     const initialTerm = 'React'
     const newTerm = 'Cypress'
 
     beforeEach(() => {
+      cy.intercept(
+        'GET',
+        `**/search?query=${newTerm}&page=0`
+      ).as('getNewTermStories')
+
       cy.get('#search')
         .clear()
     })
 
-    it('types and hits ENTER', () => {
+    it.only('digita e pressiona ENTER', () => {
       cy.get('#search')
         .type(`${newTerm}{enter}`)
 
-      cy.assertLoadingIsShownAndHidden()
+      cy.wait('@getNewTermStories')
 
       cy.get('.item').should('have.length', 20)
       cy.get('.item')
