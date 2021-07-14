@@ -25,8 +25,12 @@
     * Mocha  
 
 * **Nível Intermediário**
-    * Docker
     * Faker
+
+* **Nível Avançado**
+    * Faker
+    * Cypress localStorage
+    * Standardjs
 
 * **Teste de regressão visual**
     * Percy
