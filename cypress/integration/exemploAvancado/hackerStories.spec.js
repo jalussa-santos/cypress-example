@@ -66,17 +66,7 @@ describe('Hacker Stories', () => {
 
       it('orders by points', () => {})
     })
-
-    // Hrm, how would I simulate such errors?
-    // Since I still don't know, the tests are being skipped.
-    // TODO: Find a way to test them out.
-    context.skip('Errors', () => {
-      it('shows "Something went wrong ..." in case of a server error', () => {})
-
-      it('shows "Something went wrong ..." in case of a network error', () => {})
-    })
   })
-
   context('Pesquisa', () => {
     const initialTerm = 'React'
     const newTerm = 'Cypress'
@@ -162,4 +152,10 @@ describe('Hacker Stories', () => {
       })
     })
   })
+})
+
+context.skip('Erros', () => {
+  it('Mostra "Algo deu errado ..." em caso de erro do servidor ', () => {})
+
+  it('Mostra "Algo deu errado ..." no caso de um erro de rede', () => {})
 })
