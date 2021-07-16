@@ -25,8 +25,12 @@
     * Mocha  
 
 * **Nível Intermediário**
-    * Docker
     * Faker
+
+* **Nível Avançado**
+    * Faker
+    * Cypress localStorage
+    * Standardjs
 
 * **Teste de regressão visual**
     * Percy
@@ -121,6 +125,7 @@ npm test
 * **Nível Avançado**
     * [Interceptando solicitações e respostas](https://github.com/jalussa-santos/cypress-example/issues/70)
     * [Repetição de execução da função/teste](https://github.com/jalussa-santos/cypress-example/issues/70)
+    * [Teste com simulação de erro de servidor e de rede](https://github.com/jalussa-santos/cypress-example/issues/72)
 
 * **Teste de regressão visual**
 

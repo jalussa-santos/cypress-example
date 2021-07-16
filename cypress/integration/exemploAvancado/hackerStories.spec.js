@@ -66,17 +66,7 @@ describe('Hacker Stories', () => {
 
       it('orders by points', () => {})
     })
-
-    // Hrm, how would I simulate such errors?
-    // Since I still don't know, the tests are being skipped.
-    // TODO: Find a way to test them out.
-    context.skip('Errors', () => {
-      it('shows "Something went wrong ..." in case of a server error', () => {})
-
-      it('shows "Something went wrong ..." in case of a network error', () => {})
-    })
   })
-
   context('Pesquisa', () => {
     const initialTerm = 'React'
     const newTerm = 'Cypress'
@@ -161,5 +151,35 @@ describe('Hacker Stories', () => {
           .should('have.length', 5)
       })
     })
+  })
+})
+
+context.only('Erros', () => {
+  it('Mostra "Algo deu errado ..." em caso de erro do servidor ', () => {
+    cy.intercept(
+      'GET',
+      '**/search**',
+      {statusCode: 500}
+    ).as('getServidorComFalha')
+    
+    cy.visit('https://wlsf82-hacker-stories.web.app')
+    cy.wait('@getServidorComFalha')
+
+    cy.get('p:contains(Something went wrong ...)')
+    .should('be.visible')
+  })
+
+  it('Mostra "Algo deu errado ..." no caso de um erro de rede', () => {
+    cy.intercept(
+      'GET',
+      '**/search**',
+      {forceNetworkError: true}
+    ).as('getRedeComFalha')
+
+    cy.visit('https://wlsf82-hacker-stories.web.app')
+    cy.wait('@getRedeComFalha')
+
+    cy.get('p:contains(Something went wrong ...)')
+    .should('be.visible')
   })
 })
