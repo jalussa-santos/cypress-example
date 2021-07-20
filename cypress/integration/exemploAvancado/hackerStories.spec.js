@@ -172,7 +172,8 @@ describe('Hacker Stories', () => {
   
           cy.intercept(
             'GET',
-            '**/search**'
+            '**/search**',
+            {fixture : 'empty'}
           ).as('getRandomStories')
   
           Cypress._.times(7, () => {
