@@ -85,6 +85,7 @@ describe('Hacker Stories', () => {
       })
     
       context('Lista de histórias', () => {
+        //TODO: está retornando erro ao utilizar const stories = require('../fixtures/stories')
         //const stories = require('../fixtures/stories')
         it.skip('mostra os dados corretos para todas as histórias renderizadas', () => {  
           cy.get('.item')
@@ -116,22 +117,94 @@ describe('Hacker Stories', () => {
           cy.get('.item').should('have.length', 1)
         })
     
-        // Since the API is external,
-        // I can't control what it will provide to the frontend,
-        // and so, how can I test ordering?
-        // This is why these tests are being skipped.
-        // TODO: Find a way to test them out.
-        context.skip('Order by', () => {
-          it('orders by title', () => {})
-    
-          it('orders by author', () => {})
-    
-          it('orders by comments', () => {})
-    
-          it('orders by points', () => {})
+        context.skip('Ordernar por', () => {
+          it('Ordernar por título', () => {
+            cy.get('.list-header-button:contains(Title)')
+            .as('titleHeader')
+            .should('be.visible')
+            .click()
+
+          cy.get('.item')
+            .first()
+            .should('be.visible')
+            .and('contain', stories.hits[0].title)
+          cy.get(`.item a:contains(${stories.hits[0].title})`)
+            .should('have.attr', 'href', stories.hits[0].url)
+
+          cy.get('@titleHeader')
+            .click()
+
+          cy.get('.item')
+            .first()
+            .should('be.visible')
+            .and('contain', stories.hits[1].title)
+          cy.get(`.item a:contains(${stories.hits[1].title})`)
+            .should('have.attr', 'href', stories.hits[1].url)
+        })
+
+        it('Ordernar por autor', () => {
+          cy.get('.list-header-button:contains(Author)')
+            .as('authorHeader')
+            .should('be.visible')
+            .click()
+
+          cy.get('.item')
+            .first()
+            .should('be.visible')
+            .and('contain', stories.hits[0].author)
+
+          cy.get('@authorHeader')
+            .click()
+
+          cy.get('.item')
+            .first()
+            .should('be.visible')
+            .and('contain', stories.hits[1].author)
+        })
+
+        it('Ordernar por comentários', () => {
+          cy.get('.list-header-button:contains(Comments)')
+            .as('commentsHeader')
+            .should('be.visible')
+            .click()
+
+          cy.get('.item')
+            .first()
+            .should('be.visible')
+            .and('contain', stories.hits[1].num_comments)
+
+          cy.get('@commentsHeader')
+            .click()
+
+          cy.get('.item')
+            .first()
+            .should('be.visible')
+            .and('contain', stories.hits[0].num_comments)
+        })
+
+        it('Ordernar por pontos', () => {
+          cy.get('.list-header-button:contains(Points)')
+            .as('pointsHeader')
+            .should('be.visible')
+            .click()
+
+          cy.get('.item')
+            .first()
+            .should('be.visible')
+            .and('contain', stories.hits[1].points)
+
+          cy.get('@pointsHeader')
+            .click()
+
+          cy.get('.item')
+            .first()
+            .should('be.visible')
+            .and('contain', stories.hits[0].points)
         })
       })
     })
+  })
+
 
     
     context('Pesquisa', () => {
