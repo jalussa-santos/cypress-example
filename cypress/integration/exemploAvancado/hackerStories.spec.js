@@ -228,6 +228,10 @@ describe('Hacker Stories', () => {
         cy.get('#search')
           .clear()
       })
+
+      it('não mostra nenhuma história quando nenhuma é retornada', () => {
+        cy.get('.item').should('not.exist')
+      })
   
       it('digita e pressiona ENTER', () => {
         cy.get('#search')
