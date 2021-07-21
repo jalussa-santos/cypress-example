@@ -85,7 +85,7 @@ describe('Hacker Stories', () => {
       })
     
       context('Lista de histórias', () => {
-        const stories = require('../fixtures/stories')
+        //const stories = require('../fixtures/stories')
         it.skip('mostra os dados corretos para todas as histórias renderizadas', () => {  
           cy.get('.item')
             .first()
