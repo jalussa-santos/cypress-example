@@ -85,9 +85,8 @@ describe('Hacker Stories', () => {
       })
     
       context('Lista de histórias', () => {
-        //TODO: está retornando erro ao utilizar const stories = require('../fixtures/stories')
-        //const stories = require('../fixtures/stories')
-        it.skip('mostra os dados corretos para todas as histórias renderizadas', () => {  
+        const stories = require('../../fixtures/stories')
+        it('mostra os dados corretos para todas as histórias renderizadas', () => {  
           cy.get('.item')
             .first()
             .should('be.visible')
@@ -117,7 +116,7 @@ describe('Hacker Stories', () => {
           cy.get('.item').should('have.length', 1)
         })
     
-        context.skip('Ordernar por', () => {
+        context('Ordernar por', () => {
           it('Ordernar por título', () => {
             cy.get('.list-header-button:contains(Title)')
             .as('titleHeader')
