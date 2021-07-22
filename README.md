@@ -126,6 +126,7 @@ npm test
     * [Interceptando solicitações e respostas](https://github.com/jalussa-santos/cypress-example/issues/70)
     * [Repetição de execução da função/teste](https://github.com/jalussa-santos/cypress-example/issues/70)
     * [Teste com simulação de erro de servidor e de rede](https://github.com/jalussa-santos/cypress-example/issues/72)
+    * [Testando independente api](https://github.com/jalussa-santos/cypress-example/issues/74)
 
 * **Teste de regressão visual**
 
