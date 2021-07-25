@@ -129,6 +129,7 @@ npm test
     * [Testando independente api](https://github.com/jalussa-santos/cypress-example/issues/74)
     * [Selecionando elementos de forma mais específica](https://github.com/jalussa-santos/cypress-example/issues/79)
     * [Lendo o localStorage do navegador](https://github.com/jalussa-santos/cypress-example/issues/81)
+    * [Simulando um atraso na chamada à API](https://github.com/jalussa-santos/cypress-example/issues/83)
 
 * **Teste de regressão visual**
 

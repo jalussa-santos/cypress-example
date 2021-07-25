@@ -213,10 +213,7 @@ describe('Hacker Stories', () => {
         })
       })
     })
-  })
-
-
-    
+  })   
     context('Pesquisa', () => {
       beforeEach(() => {
         cy.intercept(
@@ -306,6 +303,26 @@ describe('Hacker Stories', () => {
                 .should('have.length', 5)
           })
         })
+      })
+    })
+
+    context('Mostra um Loading', () => {
+      it('mostra um estado "Carregando ..." antes de mostrar os resultados', () => {
+        cy.intercept(
+          'GET',
+          '**/search**',
+          {
+            delay:1000,
+            fixture:'stories'
+          }
+          ).as('getAtrasoStories')
+
+        cy.visit('https://wlsf82-hacker-stories.web.app')
+      
+        cy.assertLoadingIsShownAndHidden()
+        cy.wait('@getAtrasoStories')
+      
+        cy.get('.item').should('have.length', 2)
       })
     })
   })
