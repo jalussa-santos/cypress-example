@@ -24,9 +24,9 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-Cypress.Commands.add("preencheCamposObrigatorios", data => {
-    cy.get('#first-name').type(data.firstName);
-    cy.get("#last-name").type(data.lastName);
-    cy.get("#email").type(data.email);
-    cy.get("#agree").check();
-});
+Cypress.Commands.add('preencheCamposObrigatorios', data => {
+  cy.get('#first-name').type(data.firstName)
+  cy.get('#last-name').type(data.lastName)
+  cy.get('#email').type(data.email)
+  cy.get('#agree').check()
+})

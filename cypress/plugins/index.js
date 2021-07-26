@@ -21,9 +21,9 @@ module.exports = (on, config) => {
   // `config` is the resolved Cypress config
 }
 
-const { initPlugin } = require('cypress-plugin-snapshots/plugin');
+const { initPlugin } = require('cypress-plugin-snapshots/plugin')
 
 module.exports = (on, config) => {
-  initPlugin(on, config);
-  return config;
+  initPlugin(on, config)
+  return config
 }

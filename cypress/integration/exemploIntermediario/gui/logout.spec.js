@@ -1,12 +1,11 @@
 /// <reference types="Cypress"/>
 
 describe('Logout', () => {
+  beforeEach(() => cy.login())
 
-    beforeEach(() => cy.login());
+  it('sucesso', () => {
+    cy.logout()
 
-    it('sucesso', () => {
-        cy.logout();
-
-        cy.url().should('be.equal',`${Cypress.config('baseUrl')}users/sign_in`);
-    })
-});
+    cy.url().should('be.equal', `${Cypress.config('baseUrl')}users/sign_in`)
+  })
+})
