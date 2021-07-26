@@ -131,6 +131,7 @@ npm test
     * [Lendo o localStorage do navegador](https://github.com/jalussa-santos/cypress-example/issues/81)
     * [Simulando um atraso na chamada à API](https://github.com/jalussa-santos/cypress-example/issues/83)
     * [Validando requisições em cache](https://github.com/jalussa-santos/cypress-example/issues/85)
+    * [Análise de código e refatoração com standardjs](https://github.com/jalussa-santos/cypress-example/issues/88)
 
 
 * **Teste de regressão visual**
